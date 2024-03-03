@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg, #23bed3, #549B8C);
+    min-height: 100vh;
+    font-family: Arial, sans-serif; 
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.title {
+    font-size: 2rem; 
+    font-weight: 700;
+    color: #333; 
+    margin-bottom: 2rem;
+}
+
+.cardHolder {
+    display: grid;
+    justify-content: center;
+    gap: 1rem;
+    width: 90%;
+    max-width: 1200px; 
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding: 1rem;
+}
+
+.card {
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    background: linear-gradient(45deg, #29ccc4, #6b71c4);
+    background-size: 300%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+
+    .cardTitle {
+        color: #fff;
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+    }
+
+    &:hover {
+        transform: translateY(-7px);
+        background-image: linear-gradient(to left,#266894,#7a9ddd,#266894);
+    }
+}
+
+@keyframes colorChange {
+    0% {
+        background-position: 0%;
+    }
+    100% {
+        background-position: 100%;
+    }
+}
+
+@keyframes translateYAnimation {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-5px);
+    }
+}

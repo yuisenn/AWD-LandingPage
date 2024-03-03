@@ -1,0 +1,42 @@
+[
+    {
+        "title": "Hover Animation",
+        "description": "Hover animation of an image",
+        "link": "./Hover"
+    },
+    {
+        "title": "Jumping Letters",
+        "description": "Letters will bounce if clicked",
+        "link": "./Jump"
+    },
+    {
+        "title": "Bell Notification",
+        "description": "Construct a notification mechanism using bell visuals to enrich user interaction and engagement on your website",
+        "link": "./Notification Bell"
+    },
+    {
+        "title": "Scrollbar Indicator",
+        "description": "Integrate a sleek indicator to improve user experience while navigating through content by indicating the scrollbar position",
+        "link": "./Indicator"
+    },
+    {
+        "title": "Resume",
+        "description": "Displaying my resume and can change background color.",
+        "link": "./Resume"
+    },
+    {
+        "title": "Color of the Day",
+        "description": "The color will change depending on the chosen day.",
+        "link": "./Color Day"
+    },
+    {
+        "title": "Calculator",
+        "description": "A simple calculator with a sleep design. Can do simple calculations such as addition, subtraction, multiplication and division.",
+        "link": "./Calculator"
+    },
+    {
+        "title": "Animation",
+        "description": "Explore various animation techniques to add movement and liveliness to M's Sneaks website",
+        "link": "./Animation"
+    }
+]
